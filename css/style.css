@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #2c4964;
@@ -453,7 +453,7 @@ section {
   color: #6b96be;
 }
 .about .image {
-  background: url("../img/me.jpg") center center no-repeat;
+  background: url("../img/me.png") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
@@ -469,6 +469,10 @@ section {
   .about .image img {
     max-width: 100%;
   }
+}
+
+.purecounter:after{
+  content: '+' !important;
 }
 
 /*--------------------------------------------------------------
